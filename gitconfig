@@ -12,3 +12,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+[user]
+  name = lifeng
+  email = lifeng.luck@qq.com
+  username = lifeng
