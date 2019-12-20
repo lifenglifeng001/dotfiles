@@ -10,9 +10,17 @@
   pf = push --force-with-lease
   st = status
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/lf/.gitignore
   autocrlf = input
 [user]
-  name = lifeng
-  email = lifeng.luck@qq.com
+	name = 李锋
+	email = lifeng.luck@qq.com
   username = lifeng
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/lf/.stCommitMsg
