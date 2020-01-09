@@ -13,7 +13,7 @@
 	excludesfile = /Users/lf/.gitignore
   autocrlf = input
 [user]
-	name = 李锋
+	name = lifeng
 	email = lifeng.luck@qq.com
   username = lifeng
 [difftool "sourcetree"]
