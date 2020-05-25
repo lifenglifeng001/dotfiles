@@ -12,6 +12,7 @@
 [core]
 	excludesfile = /Users/lf/.gitignore
   autocrlf = input
+	ignorecase = true
 [user]
 	name = lifeng
 	email = lifeng.luck@qq.com
