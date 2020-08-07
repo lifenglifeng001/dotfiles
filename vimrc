@@ -2,6 +2,9 @@ set encoding=utf-8
 
 inoremap jk <Esc>
 
+" 底部总有几个空行, 避免低着头看屏幕底部写代码
+set scrolloff=10
+
 syntax on
 
 " show existing tab with 4 spaces width
