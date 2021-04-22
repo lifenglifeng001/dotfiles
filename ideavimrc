@@ -4,4 +4,5 @@ set ideajoin
 
 " 底部总有几个空行, 避免低着头看屏幕底部写代码
 set scrolloff=10
+set keep-english-in-normal
 

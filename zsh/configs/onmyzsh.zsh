@@ -76,7 +76,6 @@ nvm
 pyenv
 zsh-autosuggestions
 npm
-npx
 )
 
 source $ZSH/oh-my-zsh.sh
